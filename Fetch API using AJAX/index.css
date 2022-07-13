@@ -1,0 +1,71 @@
+h1{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: black;
+    background-color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#grid{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    margin-right: 30px;
+}
+#fBtn{
+    margin-left: 10px;
+    color: black;
+    background-color: antiquewhite;
+}
+.main{
+    width: 30vw;
+    display: block;
+    height: auto;
+    background-image: linear-gradient(to bottom right, #0d47a1, black);
+    margin: 5px;
+    top: 15vh;
+    padding: 2vw;
+    color: white;
+    box-sizing: border-box; 
+}
+    
+body{
+    background: url('https://3.bp.blogspot.com/-kkl69POMqkY/V6cufY2O90I/AAAAAAAAHUs/5Ldr3t98VuAOoh2EPpa9Xi9cUF6oHGyiQCHM/s1600/cricket-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0%;
+}
+.flag{
+    height: 3vw;
+    width: 4vw;
+}
+    .overs{
+        color: silver;
+        position: relative;
+        bottom: 1vw;
+    }
+    .score{
+        position: relative;
+        bottom: 0.5vw;
+        color: white;
+    }
+    span{
+        color: white;
+    }
+    tr{
+        border: 2px solid white;
+    }
+    .right1{
+        text-align: right;
+    }
+    .head{
+        font-size: 1.3vw;
+    }
+    .res{
+        font-size: 1.5vw;
+        text-align: center;
+    }
+    
+   

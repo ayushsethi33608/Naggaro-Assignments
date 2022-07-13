@@ -7,33 +7,20 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="index.css">
     <title>Cricket API</title>
 </head>
 
 <body>
     <div>
-    <h1 style="color: blue; text-align:center; ">Cricket Series Lists</h1>
+    <h1>Cricket Matches</h1>
     <br>
-    <p>Click the below button to fetch the upcoming series data: </p>
+    <p style="margin-left: 10px; font-weight: bolder;">Click the below button to fetch info: </p>
     <button type="button" id="fBtn" class="btn btn-outline-primary">Fetch</button>
 </div>
 <br>
-<div>
-    <table class="table table-dark">
-        <thead>
-          <tr>
-            <th scope="col">Series</th>
-            <th scope="col">Date</th>
-            <th scope="col">ODI</th>
-            <th scope="col">TEST</th>
-            <th scope="col">T20</th>
-          </tr>
-        </thead>
-        <tbody id="inner">
-
-</tbody>
-</table>
+<div id="grid">
+   
 </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
