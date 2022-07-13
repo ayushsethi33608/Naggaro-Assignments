@@ -15,25 +15,27 @@ function fetch() {
               str2= "";
               for (let i=0;i<obj['data'].length;i++)
               {
+                if(obj['data'][i].teamInfo.length<2) continue;
                  str2 +=` <div class="main">
                  <p class="head">${obj['data'][i]['name']}</p><br>
-                 <table class="table">
-                     <tr>
-                         <td>
-                            <img class="flag" src="${obj['data'][i]['teamInfo'][0]['img']}" alt="">&emsp;
-                                 <span>${obj['data'][i]['teamInfo'][0]['shortname']}</span><br><br>
-                             <p class="score">${obj['data'][i]['score'][0]['r']} / ${obj['data'][i]['score'][0]['w']}</p>
-                             <p class="overs">${obj['data'][i]['score'][0]['o']}</p>
+                  <table class="table">
+                    <tr>
+                       <td>
+                            <img class="flag" src="${obj['data'][i].teamInfo[0].img}" alt="can't find">&emsp;
+                                 <span>${obj['data'][i].teamInfo[0].shortname}</span><br><br>
+                             <p class="score">${obj['data'][i].score[0].r} / ${obj['data'][i].score[0].w}</p>
+                             <p class="overs">${obj['data'][i].score[0].o}</p>
                         </td>
                         <td class="right1">
-                            <span>${obj['data'][i]['teamInfo'][1]['shortname']}</span>&emsp;<img class="flag" src="${obj['data'][i]['teamInfo'][1]['img']}" alt=""><br><br>
-                            <p class="score">${obj['data'][i]['score'][1]['r']} / ${obj['data'][i]['score'][1]['w']}</p>
-                            <p class="overs">${obj['data'][i]['score'][1]['o']}</p>
+                            <span>${obj['data'][i].teamInfo[1].shortname}</span>&emsp;
+                   <img class="flag" src="${obj['data'][i].teamInfo[1].img}" alt="can't find"><br><br>
+                            <p class="score">${obj['data'][i].score[1].r} / ${obj['data'][i]['score'][1]['w']}</p>
+                            <p class="overs">${obj['data'][i].score[1].o}</p>
                         </td>
                     </tr>
                 </table>
                 
-                     <p class="res">${obj['data'][i]['status']}</p>
+                     <p class="res">${obj['data'][i].status}</p>
                      </div>'`; 
               }
               list.innerHTML = str2;

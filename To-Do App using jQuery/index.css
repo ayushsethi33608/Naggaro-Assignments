@@ -1,0 +1,36 @@
+h2{
+    text-align: center;
+    margin: auto;
+    background-color: antiquewhite;
+    width: 50%;
+}
+.field{
+text-align: center;
+margin: 20px;
+align-items: baseline;
+}
+
+li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    padding: auto;
+    overflow: hidden;
+}
+.btn {
+     vertical-align:baseline; 
+    padding: 3px; 
+}
+body{
+     background: linear-gradient(90deg, rgb(193, 191, 242) 0%, rgb(227, 187, 172) 35%, rgba(0,212,255,1) 100%); ;
+}
+ ul{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.fa-trash{
+float: right;
+}
