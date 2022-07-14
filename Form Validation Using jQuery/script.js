@@ -34,6 +34,7 @@ if(username_val.length<3 || username_val.length>10){
 }
 else{
     $('#usernamevalidation').hide();
+    Error=true;
 }
 }
 
@@ -57,7 +58,8 @@ function email_validation(){
     }
 
     if(emailregex.test(email)){
-        $('#emailvalidation').hide();     
+        $('#emailvalidation').hide();   
+        email_error=true;  
     }
     else{
         $('#emailvalidation').show();
@@ -88,6 +90,7 @@ function password_validation(){
 
     if(strongRegex.test(password_val)){
         $('#passwordvalidation').hide();
+        password_error=true;
     }
     else{
         $('#passwordvalidation').show();
@@ -114,13 +117,15 @@ confirm_password();
         }
 
         else{
-            $('#confirmpasswordvalidation').hide();    
+            $('#confirmpasswordvalidation').hide();   
+            confirm_password=true; 
         }
     }
 
     $('#submitvalidation').click(function(){
         username_validation();
         password_validation();
+        email_validation();
         confirm_password();
 
         if(Error==true && password_error==true && confirmpassword==true && email_error==true){
