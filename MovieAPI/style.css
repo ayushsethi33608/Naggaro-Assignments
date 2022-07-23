@@ -1,0 +1,29 @@
+.head{
+    text-align: center;
+    margin: 10px;
+}
+body{
+    background: url('https://images.pexels.com/photos/269140/pexels-photo-269140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .card{
+     display: none; 
+ } 
+#movie{
+    width: 20rem;
+}
+
+#image{
+    height:250px;
+}
+#submit{
+    vertical-align: baseline;
+    box-sizing: border-box;
+    height: inherit;
+}
+
+.container{
+    margin: auto;
+    text-align: -webkit-center;
+}
