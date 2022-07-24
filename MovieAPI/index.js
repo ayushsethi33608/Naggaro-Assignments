@@ -4,7 +4,7 @@
 
     
         if(input.trim()!='')
-            fetch(`http://www.omdbapi.com/?apikey=f91d256c&t=${input}`).then(response=>
+            fetch(`https://www.omdbapi.com/?apikey=f91d256c&t=${input}`).then(response=>
                 response.json()).then(data=>{
                 console.log(data);
                 if(data.Response=='False'){
