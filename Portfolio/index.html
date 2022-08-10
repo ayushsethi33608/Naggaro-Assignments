@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Page</title>
     <link rel="stylesheet" href="prt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+   
     <div class="topnav">
-        <a class="active" href="#home">Home</a>
+        <a class="active" href="index.html">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </div>
-      
-    <div class="first">
+    <div class="row">   
+    <div class="child">
             <h2>Hii There,
             <br> <span class="edit"> I am Ayush Sethi  </span> </h2>
-            <h3> I'm a Flutter Developer !</h3>
+            <h3> I'm a <div id="mytxt"> </div></h3>
             <button class="btn">
             About Me 
             </button>
@@ -29,10 +30,183 @@
                 <a href="https://www.facebook.com/profile.php?id=100074731430474" target="_blank"><img src="images/facebook.png" alt="FB"></a>
                 <a href="https://github.com/ayushsethi33608" target="_blank"><img src="images/github.png" alt="Github"></a> 
             </div>
-        </div>     
+  </div>
+
+<div class="child">
+    <img class="mypic" src="images/me.png" alt="My pic">
+</div>
+
+</div>
+
+<div id="aboutme">
+<h1 id="head1">About Me</h1>
+<p id="about">Hii, I am Ayush Sethi. I am a coder, web developer as well as a flutter developer. I have done various projects in both web and flutter. I have participated in various coding competitions and also secured satisfactory ranks. I have a keen interest in learning new technologies and that's why I try to explore as much as I can. My goal is to build a career in an organization where I can get the opportunities to prove my abilities by accepting challenges, fulfilling the organizational goal and climb the career ladder through continuous learning and commitment.</p>
+</div>   
+
+<div id="skills">
+<h1> Skills</h1>
+<div class="skills-container">
+    <div class="skills-item" style="background: url('https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg'); color:black ;">
+<h2> Programming</h2>
+<ul>
+    <li>C/C++</li>
+    <li>Data Structures And Algorithms</li>
+</ul>
+    </div>
+
+<div class="skills-item" style="background: url('https://www.reachfirst.com/wp-content/uploads/2018/08/Web-Development.jpg'); color:black ;">
+        <h2> Web Development</h2>
+        <ul>
+ <li>HTML/CSS/JS/Bootstrap/JQuery</li>
+<li>NodeJS/ExpressJS</li>
+        </ul>
+</div>
+
+<div class="skills-item" style="background: url('https://www.wamatechnology.com/wp-content/uploads/2021/03/flutter-application-development-service.png'); color:black ;">
+<h2> Flutter Development</h2>
+<ul>
+<li>Flutter & Dart</li>
+</ul>
+</div>
+
+<div class="skills-item" style="background: url('https://s7280.pcdn.co/wp-content/uploads/2016/06/database-blue.png'); color:black ;">
+<h2> Database</h2>
+<ul>
+<li>SQL</li>
+<li>MongoDB</li>
+</ul>
+</div>
+
+</div>
+</div>
 
 
-        <img class="mypic" src="images/me.png" alt="My pic">
 
+<div id="education">
+    <h1>Education</h1>
+    <ul type="">
+        <li>
+    <div>
+        <h4>Bharati Vidyapeeth’s College Of Engineering, New Delhi -110063</h4>
+        <h4>2019-2023</h4>
+        <ul>
+            <li>Bachelor Of Technology – Information Technology</li>
+            <li>GPA: 9.40 (up to 5th Semester)</li>
+        </ul>
+    </div>
+    </li>
+    <li>
+    <div>
+        <h4>SM Arya Public School, New Delhi-110026</h4>
+        <h4>2018-2019</h4>
+        <ul>
+            <li>XII (CBSE)</li>
+            <li>Percentage: 90.00</li>
+        </ul>
+    </div>
+</li>
+<li>
+    <div>
+        <h4>Kendriya Vidyalaya, New Delhi- 110034</h4>
+        <h4>2016-2017</h4>
+        <ul>
+            <li>X (CBSE)</li>
+            <li>CGPA: 10.00</li>
+        </ul>
+    </div>
+</li>
+</ul>
+
+</div>
+
+<div id="projects">
+    <h1>Projects</h1>
+
+<div class="grid-container">
+  <div class="grid-item">Pokemon Website <div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/Pokemon"><i class="fab fa-github-square fa-2x"></i></a> <a href="https://ayushsethi33608.github.io/Naggaro-Assignments/Pokemon/"><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+
+  <div class="grid-item">Portfolio<div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/Portfolio"><i class="fab fa-github-square fa-2x"></i></a> <a href="https://ayushsethi33608.github.io/Naggaro-Assignments/Portfolio/"><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+  
+  <div class="grid-item">Form Validation <div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/Form%20Validation%20Using%20jQuery"><i class="fab fa-github-square fa-2x"></i></a> <a href="https://ayushsethi33608.github.io/Naggaro-Assignments/Form%20Validation%20Using%20jQuery/"><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+
+  <div class="grid-item">Fetch API using AJAX <div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/Fetch%20API%20using%20AJAX"><i class="fab fa-github-square fa-2x"></i></a> <a href=""><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+  
+  <div class="grid-item">ToDo App using JS <div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/To-Do%20App%20using%20JS"><i class="fab fa-github-square fa-2x"></i></a> <a href=""><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+  
+  <div class="grid-item">ToDo App using JQuery <div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/To-Do%20App%20using%20jQuery"><i class="fab fa-github-square fa-2x"></i></a> <a href=""><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+  
+  <div class="grid-item">Copy To ClipBoard <div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/Copy%20To%20ClipBoard"><i class="fab fa-github-square fa-2x"></i></a> <a href="https://ayushsethi33608.github.io/Naggaro-Assignments/Copy%20To%20ClipBoard/"><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+  
+  <div class="grid-item">Pop Up <div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/Pop%20Up"><i class="fab fa-github-square fa-2x"></i></a> <a href="https://ayushsethi33608.github.io/Naggaro-Assignments/Pop%20Up/"><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+  
+  <div class="grid-item">Image Slider <div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/Image%20Slider"><i class="fab fa-github-square fa-2x"></i></a> <a href="https://ayushsethi33608.github.io/Naggaro-Assignments/Image%20Slider/"><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+  
+  <div class="grid-item">Theme Changer <div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/Theme%20Changer"><i class="fab fa-github-square fa-2x"></i></a> <a href="https://ayushsethi33608.github.io/Naggaro-Assignments/Theme%20Changer/"><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+  
+  <div class="grid-item">Movie API <div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/MovieAPI"><i class="fab fa-github-square fa-2x"></i></a> <a href="https://ayushsethi33608.github.io/Naggaro-Assignments/MovieAPI/"><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+
+  <div class="grid-item">MySql Express Integration <div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/MySql%20Express"><i class="fab fa-github-square fa-2x"></i></a> <a href=""><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+
+  <div class="grid-item">MongoDB Express Integration<div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/Mongo%20Express%20Integration"><i class="fab fa-github-square fa-2x"></i></a> <a href=""><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+
+  <div class="grid-item">Passport JS<div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/PassportJs"><i class="fab fa-github-square fa-2x"></i></a> <a href=""><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+
+  <div class="grid-item">JokeApi<div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/JokeApi"><i class="fab fa-github-square fa-2x"></i></a> <a href=""><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+
+  <div class="grid-item">Weather API<div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/WeatherApi"><i class="fab fa-github-square fa-2x"></i></a> <a href=""><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+
+  <div class="grid-item">SMTP JS<div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/SMTP%20JS"><i class="fab fa-github-square fa-2x"></i></a> <a href="https://ayushsethi33608.github.io/Naggaro-Assignments/SMTP%20JS/"><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+ 
+  <div class="grid-item">Passport JS<div class="inner" style="display: flex; margin:50px; align-items: center;"><a href=""><i class="fab fa-github-square fa-2x"></i></a> <a href=""><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+ 
+  <div class="grid-item">Calculator Using JS<div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/Calculator%20JS"><i class="fab fa-github-square fa-2x"></i></a> <a href="https://ayushsethi33608.github.io/Naggaro-Assignments/Calculator%20JS/"><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+  
+  <div class="grid-item">NodeMailer<div class="inner" style="display: flex; margin:50px; align-items: center;"><a href="https://github.com/ayushsethi33608/Naggaro-Assignments/tree/main/NodeMailer"><i class="fab fa-github-square fa-2x"></i></a> <a href=""><i class="fa-solid fa-link" style="font-size:larger"></i></a></div></div>
+    
+</div>
+   
+   
+</div>
+
+<div id="contact">
+    <div id="getintouch">
+        <h1> Get in Touch
+        </h1>
+          <form action="" class="contact">
+         <input type="text" class="form-control" placeholder="Name" id="name">
+<br>
+<input type="" class="form-control" placeholder="Email" id="email">
+<br>
+<textarea name="Message" id="message" cols="50" rows="10" placeholder="Message"></textarea>
+          </form>    
+          <br>
+          <button id="submit" onclick="sendmessage()">Send</button>
+        </div>
+    <div id="contactinfo">
+<h2>Contact</h2>
+<div>
+    <ul>
+    <li> <span>Phone:</span><span> 8383987569</span></li>    
+    <li> <span>Email:</span><span> ayushsethi33608@gmail.com</span></li>    
+    </ul> 
+</div>
+
+    </div>
+    
+</div>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+function sendmessage(){
+    Email.send({
+    SecureToken : 'baf36448-7180-486d-a1d4-ae9d6d9eab2c',
+    To : "ayushsethi0630@gmail.com",
+    From : "ayushsethi33608@gmail.com",
+    Subject : `Query from Name:${document.getElementById('name').value} & Email: ${document.getElementById('email').value}`,
+    Body : `${document.getElementById('message').value}`
+}).then(
+  message => alert(message)
+);
+}
+</script>
 </body>
 </html>
